@@ -1,0 +1,14 @@
+O que é Inferno das Dependencias e o que houve no caso Jarbas
+
+O Inferno das Dependências é o termo que descreve a complicação de lidar com os pacotes de software. No caso Jarbas havia uma das dependências que foi atualizada por seu desenvolvedor e passou a ser incompatível com os códigos do projeto a qual fazia parte.
+
+O que é PyUP e como ele pode contribuir para o gerenciamento da configuração de software
+
+O PyUP verifica se as dependências do projeto estão em suas versões mais atualizadas, caso não, ele as atualiza 
+
+Em qual tarefa do gerenciamento de software o PyUP pode colaborar (material aula 2)
+
+O PyUP pode colaborar grandemente com a gestão das mudanças, mais ainda nos itens de configuração.
+
+Como versionamento semantico ajudou no problema
+Aplicando o padrão de versionamento semântico, facilita a interpretação das atualizações tanto por desenvolvedores como pelos usuários finais
