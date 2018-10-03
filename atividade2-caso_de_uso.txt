@@ -1,0 +1,95 @@
+Caso de Uso: Configurar Conjunto de Elevadores
+Ator Principal: Mantenedor
+
+Interessados e Interesses:
+ - Mantenedor: deseja configurar os parâmetros de funcionamento do elevador
+
+Pré Condições: O Mantenedor é identificado e autenticado
+
+Garantia de Sucesso (Pós-Condições): Os dados e configuração do elevador sao salvos.
+
+-----------------------------------------
+
+Caso de Uso: Gerenciar Usuário
+Ator Principal: Mantenedor
+
+Interessados e Interesses:
+ - Mantenedor: deseja gerenciar os dados de acesso do usuário;
+ - Usuário: deseja ter acesso a usabilidade dos elevadores
+
+Pré Condições: O Mantenedor é identificado e autenticado
+
+Garantia de Sucesso (Pós-Condições): Os dados do usuário são salvos e ele passa a ter acesso ao uso dos elevadores
+
+-----------------------------------------
+
+Caso de Uso: Emitir Cartão
+Ator Principal: Mantenedor
+
+Interessados e Interesses:
+ - Mantenedor: deseja realizar a emissão do cartão de acesso ao usuário para uso do elevador;
+ - Usuário: deseja ter acesso a usabilidade dos elevadores através do cartão
+
+Pré Condições: O Mantenedor e o usuário são identificados e autenticados.
+
+Garantia de Sucesso (Pós-Condições): O cartão emitido fornece acesso aos elevadores pelo usuário
+
+-----------------------------------------
+
+Caso de Uso: Chamar Elevador
+Ator Principal: Mantenedor
+
+Interessados e Interesses:
+ - Usuário: deseja ter acesso ao elevadores através do cartão
+
+Pré Condições: O Usuário insere seu cartão ao painel de acesso.
+
+Garantia de Sucesso (Pós-Condições): O elevador abre a porta no andar solicitado.
+
+-----------------------------------------
+
+Caso de Uso: Consultar Último Andar
+Ator Principal: Administrador
+
+Interessados e Interesses:
+ - Administrador: deseja ter acesso ao último andar para o qual o usuário foi direcionado
+
+Pré Condições: O Administrador é identificado e autenticado.
+
+Garantia de Sucesso (Pós-Condições): O sistema retorna o andar, data, hora e celular do usuário.
+
+-----------------------------------------
+
+Caso de Uso: Consultar Viagens Elevadores
+Ator Principal: Administrador
+
+Interessados e Interesses:
+ - Administrador: deseja ter acesso a quantidade de viagens realizadas pelos elevadores em um período, agrupado por elevador.
+
+Pré Condições: O Administrador é identificado e autenticado.
+
+Garantia de Sucesso (Pós-Condições): O sistema retorna a quantidade de viagens realizadas pelos elevadores em um período, agrupado por elevador.
+
+-----------------------------------------
+
+Caso de Uso: Consultar Viagens de Usuários
+Ator Principal: Administrador
+
+Interessados e Interesses:
+ - Administrador: deseja ter acesso as viagens realizadas por um determinado usuário em um período de tempo.
+
+Pré Condições: O Administrador é identificado e autenticado.
+
+Garantia de Sucesso (Pós-Condições): O sistema retorna a quantidade de viagens 
+
+-----------------------------------------
+
+Caso de Uso: Desativar Elevador
+Ator Principal: Mantenedor
+
+Interessados e Interesses:
+ - Mantenedor: deseja desativar um elevador, tornando-o inoperante ou ativa-lo, tornando-o novamente operacional.
+
+Pré Condições: O Mantenedor é identificado e autenticado.
+
+Garantia de Sucesso (Pós-Condições): O status do elevador torna-se desativado, caso esteja ativo e operante ou o status torna-se ativado, caso esteja desativado e inoperante.
